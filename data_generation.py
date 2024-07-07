@@ -11,7 +11,7 @@ The domain of x will be [-5, 10] and the domain of y will be [0, 15].
 
 We generate 8 "synthetic" datasets - datasets A-D will be generated as above, and
 datasets E-H will shuffle the z column and multiply it by 20, thus making these
-datasets very unsuitable for training.
+datasets completely useless for training.
 
 Each dataset will contain different ranges of X and Y
 
@@ -23,7 +23,7 @@ Y \in [7.5, 15]   |     C and G      |      D and H      |
 
 Thus, an optimal mix for training would be 0.25 each of A, B, C, and D.
 
-Dataset I will contain the full range o X and Y and not be shuffled - it will act as
+Dataset I will contain the full range of X and Y and not be shuffled - it will act as
 a validation set.
 '''
 
